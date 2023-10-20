@@ -1,0 +1,26 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+
+table tr:nth-child(2n) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: left;
+    background-color: dodgerblue;
+    color: white;
+}
